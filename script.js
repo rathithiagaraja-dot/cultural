@@ -93,20 +93,20 @@ function tukarWarna(id, warna) {
 
     if (id === "gambar1") {
         gambar.src = (warna === "blue")
-            ? "image/img5-1.png"
-            : "image/img5-2.png";
+            ? "img5-1.png"
+            : "img5-2.png";
     }
 
     else if (id === "gambar2") {
         gambar.src = (warna === "blue")
-            ? "image/img6-3.png"
-            : "image/img6-2.png";
+            ? "img6-3.png"
+            : "img6-2.png";
     }
 
     else if (id === "gambar3") {
         gambar.src = (warna === "blue")
-            ? "image/img7-3.png"
-            : "image/img7-2.png";
+            ? "img7-3.png"
+            : "img7-2.png";
     }
 }
 
@@ -120,9 +120,9 @@ function tukarWarnasaree(id, warna) {
         gambar = document.getElementById("gambar1");
 
         if (warna === 3) {
-            gambar.src = "image/img1(3).png"; 
+            gambar.src = "img1(3).png"; 
         } else if (warna === 4) {
-            gambar.src = "image/img1(4).png";
+            gambar.src = "img1(4).png";
         }
     }
 
@@ -130,9 +130,9 @@ function tukarWarnasaree(id, warna) {
         gambar = document.getElementById("gambar2");
 
         if (warna === 3) {
-            gambar.src = "image/img4(3).png"; 
+            gambar.src = "img4(3).png"; 
         } else if (warna === 4) {
-            gambar.src = "image/img4(4).png"; 
+            gambar.src = "img4(4).png"; 
         }
     }
 }
@@ -148,9 +148,9 @@ function tukarWarnasaree1(id, warna) {
         gambar = document.getElementById("gambar1");
 
         if (warna === 3) {
-            gambar.src = "image/img1-3.png"; 
+            gambar.src = "img1-3.png"; 
         } else if (warna === 4) {
-            gambar.src = "image/img1-4.png";
+            gambar.src = "img1-4.png";
         }
     }
 
@@ -158,9 +158,9 @@ function tukarWarnasaree1(id, warna) {
         gambar = document.getElementById("gambar2");
 
         if (warna === 3) {
-            gambar.src = "image/img2-3.png"; 
+            gambar.src = "img2-3.png"; 
         } else if (warna === 4) {
-            gambar.src = "image/img2-4.png"; 
+            gambar.src = "img2-4.png"; 
         }
     }
 }
@@ -176,9 +176,9 @@ function tukarWarnasaree2(id, warna) {
         gambar = document.getElementById("gambar1");
 
         if (warna === 3) {
-            gambar.src = "image/img8(3).png"; 
+            gambar.src = "img8(3).png"; 
         } else if (warna === 4) {
-            gambar.src = "image/img8(4).png";
+            gambar.src = "img8(4).png";
         }
     }
 
@@ -186,9 +186,9 @@ function tukarWarnasaree2(id, warna) {
         gambar = document.getElementById("gambar2");
 
         if (warna === 3) {
-            gambar.src = "image/img8-3.png"; 
+            gambar.src = "img8-3.png"; 
         } else if (warna === 4) {
-            gambar.src = "image/img8-4.png"; 
+            gambar.src = "img8-4.png"; 
         }
     }
 }
